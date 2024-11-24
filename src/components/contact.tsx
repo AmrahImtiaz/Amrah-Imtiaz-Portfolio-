@@ -142,7 +142,7 @@ export const Contact = () => {
             className="mt-12 flex flex-col gap-8"
           >
               {/* Hidden Input for Access Key */}
-              <input type="hidden" name="access_key" value="1265ff8d-ab21-427e-bbe7-f56a6efde833" />
+              <input type="hidden" name="access_key" value="#" />
             {/* Name */}
             <label htmlFor="name" className="flex flex-col">
               <span className="text-white font-medium mb-4">Your Name*</span>
