@@ -92,7 +92,7 @@ export const Contact = () => {
 
     // create form data
     const formData = new FormData();
-    formData.append("access_key", "1265ff8d-ab21-427e-bbe7-f56a6efde833");
+    formData.append("access_key", "#);
     formData.append("name", form.name);
     formData.append("email", form.email);
     formData.append("message", form.message);
