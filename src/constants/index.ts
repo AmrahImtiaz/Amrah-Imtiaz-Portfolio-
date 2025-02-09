@@ -36,6 +36,7 @@ import {
   linkedin,
   twitter,
   github,
+  behance,
 } from "../assets";
 
 // Navbar Links
@@ -355,9 +356,14 @@ export const PROJECTS = [
 
 export const SOCIALS = [
   {
+  name: "Behance",
+  icon: behance,
+  link: "https://www.behance.net/amrah",
+  },
+  {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/channel/UCEe6UQCF7wA1m2YVbFd6Wrg",
+    link: "https://www.youtube.com/@FreeEduJourney",
   },
   {
     name: "Linkedin",
@@ -374,4 +380,5 @@ export const SOCIALS = [
     icon: github,
     link: "https://github.com/AmrahImtiaz",
   },
+
 ] as const;

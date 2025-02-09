@@ -45,6 +45,7 @@ import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
+import behance from "./socials/behance.svg";
 
 export {
   backend,
@@ -84,6 +85,7 @@ export {
   user3,
   github,
   youtube,
+  behance,
   linkedin,
   twitter,
 };
