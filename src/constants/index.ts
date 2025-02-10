@@ -70,11 +70,11 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ASP .Net Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI UX Designer",
     icon: backend,
   },
   {
@@ -151,18 +151,6 @@ export const EXPERIENCES = [
       "Secured Second Position in Wordpress Hackathon Jan 2024 , we developed a completely custom 💻 Query Management System💻.",
       "This system is a fusion of our Query Nexus Plugin and the HR Nexa theme, complete with an Admin Dashboard."
     ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies. Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
    },
   {
     title: "Web Developer",
@@ -171,69 +159,27 @@ export const EXPERIENCES = [
     iconBg: "#383E56",
     date: "Jan 2023",
     points: [
-       "Developed a robust e-commerce platform for Javson, enabling",
-       "seamless online ordering and purchase of a diverse range of products",
-       "including meat, vegetables, rice, and pink salt.",
-       "Optimized product pages and descriptions for search engine visibility",
-       "leveraging keywords and metadata to enhance organic discoverability",
-      "and drive targeted traffic to the website."
+       "#"
     ],
-  },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-] as const;
-
-// Testimonials
-export const TESTIMONIALS = [
-  {
-    testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: user1,
-  },
-  {
-    testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: user2,
-  },
-  {
-    testimonial:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: user3,
-  },
+  }
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "WordPress Portfolio Website",
-    description:"WordPress is a web content management system.",
+    name: "WEB VILLA AGENCY ",
+    description:"Villa Agency is developed using ASP.NET MVC, HTML , CSS  with Bootstrap v5.3.0. There are Property Listing page and Property Detail page. Property Listing categorized different properties by apartment, villa house, and penthouse.",
     tags: [
       {
-        name: "Html",
+        name: "SQL SERVER",
+        color: "red-text-gradient",
+      },
+      {
+        name: "ASP.NET MVC",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "HTML & CSS",
         color: "green-text-gradient",
       },
       {
@@ -242,13 +188,13 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/AmrahImtiaz/Wordpress-Developer",
-    live_site_link: "https://amrahimtiaz.github.io/Wordpress-Developer/",
+    source_code_link: "https://github.com/AmrahImtiaz/WebAppVilla-Agency",
+    live_site_link: "#",
   },
   {
     name: "Scarlet Nexus",
     description:
-      "Dive into the world of Scarlet Nexus with our beautifully designed website, built with WordPress and enhanced by custom design code. ",
+      "Built with WordPress and enhanced by custom design code. ",
     tags: [
       {
         name: "HTML & CSS",
@@ -373,7 +319,7 @@ export const SOCIALS = [
   {
     name: "Twitter",
     icon: twitter,
-    link: "",
+    link: "#",
   },
   {
     name: "GitHub",
