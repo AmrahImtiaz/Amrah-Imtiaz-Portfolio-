@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { github, preview } from "../assets";
-import { PROJECTS } from "../constants";
+import { Design, PROJECTS } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
@@ -97,6 +97,7 @@ export const Works = () => {
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My Work</p>
           <h2 className={styles.sectionHeadText}>Projects.</h2>
+          
         </motion.div>
 
         {/* About */}
@@ -114,6 +115,31 @@ export const Works = () => {
         <div className="mt-20 flex flex-wrap gap-7">
           {PROJECTS.map((project, i) => (
             <ProjectCard key={`project-${i}`} index={i} {...project} />
+          ))}
+        </div>
+        {/* Design Card */}
+
+    {/* Title */}
+    <div className="mt-15">
+    <motion.div variants={textVariant()}>
+
+          <h2 className={styles.sectionHeadText}>My Designs .</h2>
+          
+        </motion.div>
+        </div>
+        {/* About */}
+        <div className="w-full flex">
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+  
+          </motion.p>
+        </div>
+
+        <div className="mt-20 flex flex-wrap gap-7">
+          {Design.map((project, i) => (
+            <ProjectCard key={`design-${i}`} index={i} {...project} />
           ))}
         </div>
       </>
