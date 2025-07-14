@@ -53,7 +53,7 @@ export const About = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-       Hi, I'm Amrah Imtiaz, a passionate BSCS student currently in my seventh semester at Muhammad Ali Jinnah 
+       Hi, I'm Amrah Imtiaz, a passionate BSCS student currently in my eight semester at Muhammad Ali Jinnah 
       University. My interests span a wide spectrum of technology and design, including artificial intelligence, 
       full-stack web development, mobile app development, UI/UX design, and graphic design.
         </motion.p>
